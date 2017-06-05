@@ -1,0 +1,32 @@
+.main-container{
+	position: relative;
+	top: 100px;
+	width: calc(100% -200px);
+	margin-left: 200px;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.space-between{
+	justify-content: space-between;
+}
+.p1020{
+	padding: 10px 20px;
+}
+.red{
+	background-color: red;
+}
+.content{
+	border: 1px solid silver;
+}
+.item:not(:last-child){
+	border-bottom: 1px solid silver;
+}
+.item{
+	padding: 20px;
+}
+.control{
+	position: fixed;
+	top: 150px;
+}
